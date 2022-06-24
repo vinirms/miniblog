@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+body{
+    background-color:#CBF5DF;
+    overflow-x: hidden;
+}
+
+input::placeholder,
+textarea:focus, textarea::placeholder{
+    outline: none;
+    font-size: 1.2em;
+}
+
+input, textarea{
+    font-size: 1.2em;
+    border-radius: 5px;
+    outline: none;
+    padding: 2px 10px;
+    border: 2px solid #a29494;
+}
+
+a,
+nav button{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    transition: .4s;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+button{
+    width: auto;
+    font-size: 1.5em;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+
+.erro-form{
+    color: rgb(255, 11, 11);
+    font-size: .85em;
+}
+
+.disable-form-submit{
+    background-color: gray;
+}
+
+.disable-form-submit:hover{
+    color: #ffffff;
+    background-color: #B3D0F5;
+}
+/* botoes */
+.btn-post-about{
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #755E32;
+    border: 2px solid #755E32;
+    width: 150px;
+    
+}
+
+.btn-post-about:hover{
+    color: #fffcf5;
+    background-color: #597CA8;
+    border: 2px solid #755E32;
+}
+/* botao de pesquisa home */
+.btn_search{
+    border-radius: 0 10px 10px 0px ;
+    background-color: transparent;
+    color: #a29494;
+    border: 2px solid #a29494;
+    font-size: 1.2em;
+}
+
+.btn_search:hover{
+    color: #ffffff;
+    background-color: #597CA8;
+    border: 2px solid #a29494;
+}
+/* fim botao de pesquisa home */
+

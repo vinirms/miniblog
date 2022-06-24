@@ -1,0 +1,31 @@
+.home{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    color: #363027;
+}
+
+.home form{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    height: auto;
+}
+
+@media (max-width:750px) {
+   form{
+    display: flex;
+   }
+   input{
+    display: flex;
+    height: 30px;
+    padding: 0;
+   }
+
+   button{
+    display: flex;
+  
+   }
+}
+

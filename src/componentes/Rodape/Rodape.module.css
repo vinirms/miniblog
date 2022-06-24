@@ -1,0 +1,12 @@
+.Rodape{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#A8936A;
+    gap: 20px;
+    color: white;
+    
+}
