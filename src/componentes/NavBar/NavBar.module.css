@@ -5,8 +5,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: sticky;
-    top: 0;
     opacity: 0.8;
     color: #755E32;
 }
@@ -132,7 +130,7 @@ button:focus ~ ul{
     }
     
 
-    a:hover{
+    .container_itens a:hover{
         color: #755E32;
         background-color: #B3D0F5;
     }

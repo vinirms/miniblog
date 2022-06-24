@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./PostUnico.module.css";
 import { useParams } from "react-router-dom";
 import { useFetchPost } from "../../Hooks/useFetchPost";
+import { Link } from "react-router-dom";
 
 const PostUnico = () => {
   const { id } = useParams();
@@ -22,6 +23,9 @@ const PostUnico = () => {
           </div>
         </>
       )}
+      <Link className={styles.ver_post} to="/">
+        Voltar
+      </Link>
     </div>
   );
 };

@@ -31,6 +31,23 @@
     max-width: 500px;
 }
 
+.ver_post{
+    margin-top: 10px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #755E32;
+    border: 2px solid #755E32;
+    
+    
+}
+
+.ver_post:hover{
+    color: #fffcf5;
+    background-color: #597CA8;
+    border: 2px solid #755E32;
+}
 
 
 @media (max-width: 700px){

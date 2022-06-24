@@ -40,16 +40,21 @@ const Dashboard = () => {
                 posts.map((post) => (
                   <div key={post.id} className={styles.post_container}>
                     <h4>{post.titulo}</h4>
-                    <div>
-                      <Link to={`/post/${post.id}`} className={styles.btn_ver}>
-                        Ver
-                      </Link>
-                      <Link
-                        to={`/post/edit/${post.id}`}
-                        className={styles.btn_editar}
-                      >
-                        Editar
-                      </Link>
+                    <div className={styles.options}>
+                      <div>
+                        <Link
+                          to={`/post/${post.id}`}
+                          className={styles.btn_ver}
+                        >
+                          Ver
+                        </Link>
+                        <Link
+                          to={`/post/edit/${post.id}`}
+                          className={styles.btn_editar}
+                        >
+                          Editar
+                        </Link>
+                      </div>
                       <button
                         className={styles.btn_excluir}
                         onClick={() => deletePost(post.id)}
