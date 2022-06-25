@@ -1,7 +1,6 @@
 .post_tags{
     display: flex;
     gap: 20px;
-    margin-bottom: 20px;
     padding-bottom: 10px;
     margin-left: 20px;
     font-weight: bold;
@@ -43,6 +42,7 @@ hr{
 
 .user_post{
     display: flex;
+    flex-direction: column;
     margin-left: 20px;
 }
 .user_post h1{
@@ -50,10 +50,11 @@ hr{
     font-weight: bold;
 }
 
-.user_post span{
-    font-size: .9em;
+.user_details{
     display: flex;
-    align-items: flex-end;
+    gap: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .user{
